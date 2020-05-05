@@ -22,7 +22,7 @@ def has_pending_snapshot(volume):
 
 @click.group()
 def cli():
-    """Shotty manages insterfaces"""
+    """Shotty manages interfaces"""
 
 @cli.group('snapshots')
 def snapshots():
